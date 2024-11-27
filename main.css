@@ -84,7 +84,7 @@ h2 {
     color: #eab308; 
 }
 
-button {
+.button {
     border-radius: 4px;
     font-size: 100%;
     background: #374151;
@@ -100,7 +100,7 @@ button {
     max-width: 100%;
 }
 
-button.primary {
+.button.primary {
     background: linear-gradient(88.71deg, #FBC419 -0.88%, #FFDC70 99.18%);
     font-weight: 700;
     color: #374151;
@@ -254,7 +254,7 @@ main#datenschutz h1 {
     body {
         font-size: 18px !important;
     }
-    button {
+    .button {
         min-height: 40px;
     }
     .cards {
