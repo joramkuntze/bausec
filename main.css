@@ -109,11 +109,12 @@ button.primary {
 
 .split-image-text {
     display: flex;
+    gap: 6%;
 }
+
 
 .split-image-text > * {
     flex-basis: 50%;
-    margin: 0 6%;
 }
 
 .cards {
@@ -180,11 +181,11 @@ main#datenschutz {
 }
 
 h4 {
-    font-size: 137%;
+    font-size: 2em;
 }
 
-main#datenschutz  h5 {
-    font-size: 36px;
+h5 {
+    font-size: 1.5em;
 }
 
 main#datenschutz h5, main#datenschutz h4, 
@@ -193,7 +194,7 @@ main#datenschutz h1 {
 }
 
 main#datenschutz h1 {
-    font-size: 134px;
+    font-size: 4.5em;
 }
 
 
@@ -333,6 +334,12 @@ body {
     display: none;
     font-size: 1.8rem;
     cursor: pointer;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Responsive styles for mobile */
