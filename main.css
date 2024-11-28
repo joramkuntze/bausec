@@ -99,6 +99,7 @@ h2 {
     max-height: 4vw;
     max-width: 100%;
     text-decoration: none;
+    width: fit-content;
 }
 
 .button.primary {
